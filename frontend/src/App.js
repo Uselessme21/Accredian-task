@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import LoginForm from './components/LoginForm'; // Assuming you have a LoginForm component
-import SignupForm from './components/SignupForm'; // Assuming you have a SignupForm component
+import LoginForm from './components/LoginForm';
+import SignupForm from './components/SignupForm';
 
 import { AppBar, Toolbar, Typography, Button, CssBaseline } from '@mui/material';
 

@@ -12,7 +12,7 @@ const signup = async (req, res) => {
 
     if (existingUser.length > 0) {
       
-      return res.status(400).json({ message: 'Email is already registered' });
+      return res.status(400).json({ error: 'Email is already registered' });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
